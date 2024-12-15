@@ -39,7 +39,7 @@ public class D1Task {
         System.out.println("Options on " + optionsExchange.getExchangeName());
         optionsExchange.printTradedInstruments();
 
-    }NYSE
+    }
 
     
 }
