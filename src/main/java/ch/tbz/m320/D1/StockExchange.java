@@ -20,6 +20,18 @@ public class StockExchange implements Exchange {
         // create an empty list of ExchangeTradedStock objects
         this.tradedStocks = new ArrayList<>(); 
 
+        // Create 4 ExchangeTradedStock objects with bid and ask prices
+        ExchangeTradedStock apple = new ExchangeTradedStock("AAPL", "Apple Inc.", 150.00f, 150.10f);
+        ExchangeTradedStock google = new ExchangeTradedStock("GOOG", "Google LLC.", 2800.00f, 2800.50f);
+        ExchangeTradedStock microsoft = new ExchangeTradedStock("MSFT", "Microsoft Corporation", 300.00f, 300.15f);
+        ExchangeTradedStock amazon = new ExchangeTradedStock("AMZN", "Amazon.com Inc.", 110.00f, 110.12f);
+  
+        // Add the stocks to the exchange
+        this.addTradedAsset(apple);
+        this.addTradedAsset(google);
+        this.addTradedAsset(microsoft);
+        this.addTradedAsset(amazon);
+
     }
 
 
