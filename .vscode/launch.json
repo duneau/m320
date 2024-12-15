@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "D1Task",
+            "request": "launch",
+            "mainClass": "ch.tbz.m320.D1.D1Task",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "ch.tbz.Main",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
             "name": "Launch App",
             "request": "launch",
             "cwd": "${workspaceFolder}",
