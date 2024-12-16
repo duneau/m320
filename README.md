@@ -6,6 +6,7 @@ Sample project code
 
 - inheritance
 - abstract classes
+- polymorphism
 - composition
 - interfaces
 
