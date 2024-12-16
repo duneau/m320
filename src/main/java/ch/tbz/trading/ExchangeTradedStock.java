@@ -1,7 +1,7 @@
 /**
  * Created: Dec 15, 2024
  */
-package ch.tbz.m320.D1;
+package ch.tbz.trading;
 
 public class ExchangeTradedStock extends ExchangeTradedInstrument {
     

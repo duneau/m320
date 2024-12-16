@@ -1,12 +1,12 @@
 /**
  * Created: Dec 15, 2024
  */
-package ch.tbz.m320.D1;
+package ch.tbz.trading;
 
 // Imports Input functions
 import static ch.tbz.lib.Input.*; 
 
-public class D1Task {
+public class appTest {
 
     public static void main(String[] args) {
       

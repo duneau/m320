@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "appTest",
+            "request": "launch",
+            "mainClass": "ch.tbz.trading.appTest",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
             "name": "D1Task",
             "request": "launch",
             "mainClass": "ch.tbz.m320.D1.D1Task",
