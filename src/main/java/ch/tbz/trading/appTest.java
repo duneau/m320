@@ -1,5 +1,6 @@
 /**
  * Created: Dec 15, 2024
+ * @author: Nicolas Duneau
  */
 package ch.tbz.trading;
 
@@ -19,12 +20,10 @@ public class appTest {
         StockExchange stockExchange = new StockExchange(exchangeName);
 
        
-
         // display the equities
         System.out.println("Equities on " + stockExchange.getExchangeName());
         
         stockExchange.printTradedInstruments();
-
 
         // create an Options exchange
         System.out.println();
